@@ -1,41 +1,59 @@
-  <style type="text/css"> button,
-  div,
-  form,
-  input {
-      margin: 10px;
-  }
-  
-  button,
-  #add-animal {
-      background-color: #3af25e;
-  }
-  
-  button:hover,
-  #add-animal:hover {
-      background-color: #3d9630;
-  }
-  
-  body {
-      background: url(wallpaper.jpg);
-      background-position: center;
-      background-size: cover;
-  }
-  
-  p {
-      margin-right: 10px;
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-bottom: 20px;
-      clear: both;
-  }
-  
-  img {
-      height: 200px;
-      width: 300px;
-  }
-  
-  .animal-item {
-      float: left;
-  }
-  
-  </style>
+button,
+div,
+form,
+input {
+    margin: 10px;
+}
+
+button {
+    padding: 5px 20px;
+    margin: 10px 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #659a98;
+    border: 0;
+    border-radius: 5px;
+}
+
+button,
+#add-animal {
+    background-color: #3af25e;
+}
+
+button:hover,
+#add-animal:hover {
+    background-color: #3d9630;
+}
+
+body {
+    background: url(wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.animal-item {
+    float: left;
+}
+
+input#add-animal {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 0px;
+    color: #fff;
+}
