@@ -1,0 +1,41 @@
+  <style type="text/css"> button,
+  div,
+  form,
+  input {
+      margin: 10px;
+  }
+  
+  button,
+  #add-animal {
+      background-color: #3af25e;
+  }
+  
+  button:hover,
+  #add-animal:hover {
+      background-color: #3d9630;
+  }
+  
+  body {
+      background: url(wallpaper.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  
+  p {
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      clear: both;
+  }
+  
+  img {
+      height: 200px;
+      width: 300px;
+  }
+  
+  .animal-item {
+      float: left;
+  }
+  
+  </style>
