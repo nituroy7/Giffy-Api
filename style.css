@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 button,
 div,
 form,
@@ -57,3 +58,46 @@ input#add-animal {
     margin-left: 0px;
     color: #fff;
 }
+=======
+  button,
+  div,
+  form,
+  input {
+      margin: 10px;
+  }
+  
+  button,
+  #add-animal {
+      background-color: #3af25e;
+  }
+  
+  button:hover,
+  #add-animal:hover {
+      background-color: #3d9630;
+  }
+  
+  body {
+      background: url(wallpaper.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+  
+  p {
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      clear: both;
+  }
+  
+  img {
+      height: 200px;
+      width: 300px;
+  }
+  
+  .animal-item {
+      float: left;
+  }
+  
+ 
+>>>>>>> ce81a1c7dde201e341821121b0a3ddce6f01286a
